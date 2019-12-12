@@ -1,14 +1,16 @@
 body {
-  background-color: #ff0000;
+  background-color: #ffffff; /*White*/
   color: #0000FF;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.5); /*Light Grey*/
   float: left;
   position: fixed;
   width: 100%;
 }
+
+
 
 .logo {
   margin: 20px;
@@ -50,3 +52,34 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+body {
+  font-size: 16px;
+  line-height: normal;
+    color: 000000;
+}
+h1 {
+  font-size: 200%
+  line-height: normal;
+  color: 000000;
+}
+p {
+  font-size: 100%;
+  line-height: normal;
+    color: 000000;
+}
+
+body {
+  background: #fff url(images/instagram-pic.jpg) no-repeat top center;
+}
+body {
+  background: #fff url(images/logo.png) no-repeat top center;
+}
+
+a {
+text-decoration: none;
+}
+a:link { color:#0070BB; }
+a:visited { color:#0070BA; }
+a:hover { color:#0070BC; }
+a:active { color:#0070BD; }
