@@ -1,10 +1,6 @@
-body {
-  background-color: #ffffff; /*White*/
-  color: #0000FF;
-}
 
 nav {
-  background-color: rgba(0,0,0,.5); /*Light Grey*/
+  background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
@@ -22,7 +18,8 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 90%;
+
 }
 
 .left, .right {
@@ -50,36 +47,49 @@ article {
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
 }
 
 body {
   font-size: 16px;
-  line-height: normal;
-    color: 000000;
-}
-h1 {
-  font-size: 200%
-  line-height: normal;
+  line-height: 20px;
   color: 000000;
+  background-color: #ffffff;
 }
-p {
-  font-size: 100%;
-  line-height: normal;
-    color: 000000;
+figcaption {
+  caption-side: bottom;
+  font-size: 12px;
+  text-align: center;
 }
 
-body {
-  background: #fff url(images/instagram-pic.jpg) no-repeat top center;
+
+h1 {
+  font-size: 32px;
+  line-height: 180%;
+  color: 000000;
+  text-align: center;
+  Padding-top: 20px;
+
 }
-body {
-  background: #fff url(images/logo.png) no-repeat top center;
+ h3{
+   font-size: 20px;
+   line-height: 30px;
+     color: 000000;
+     padding-top: 20px;
+ }
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+    color: 000000;
+    padding-top:20px;
 }
+
 
 a {
 text-decoration: none;
 }
-a:link { color:#0070BB; }
-a:visited { color:#0070BA; }
-a:hover { color:#0070BC; }
-a:active { color:#0070BD; }
+a :link { color:#0070BB; }
+a :visited { color:#0070BA; }
+a :hover { color:#0070BC; }
+a :active { color:#0070BD; }
