@@ -1,12 +1,9 @@
-
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
 }
-
-
 
 .logo {
   margin: 20px;
@@ -19,7 +16,6 @@ nav {
 
 .medium-pic {
   width: 90%;
-
 }
 
 .left, .right {
@@ -56,12 +52,12 @@ body {
   color: 000000;
   background-color: #ffffff;
 }
+
 figcaption {
   caption-side: bottom;
   font-size: 12px;
   text-align: center;
 }
-
 
 h1 {
   font-size: 32px;
@@ -69,27 +65,27 @@ h1 {
   color: 000000;
   text-align: center;
   Padding-top: 20px;
-
 }
+
  h3{
-   font-size: 20px;
-   line-height: 30px;
-     color: 000000;
-     padding-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  color: 000000;
+  padding-top: 20px;
  }
 
 p {
   font-size: 16px;
   line-height: 25px;
-    color: 000000;
-    padding-top:20px;
+  color: 000000;
+  padding-top:20px;
 }
-
 
 a {
 text-decoration: none;
 }
-a :link { color:#0070BB; }
-a :visited { color:#0070BA; }
-a :hover { color:#0070BC; }
-a :active { color:#0070BD; }
+
+a:link { color:#0070BB; } /* unvisited */
+a:visited { color:#003659; } /* visited */
+a:hover { color:#0198FF; } /* mouse over */
+a:active { color:#739EBB; } /* selected */
